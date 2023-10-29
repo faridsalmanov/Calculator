@@ -33,6 +33,7 @@
                 android:onClick="clearBTN"
                 android:text="@string/clear"
                 android:textColor="@color/white"
+                android:gravity="center"
                 android:textSize="20sp" />
 
             <Button
@@ -46,6 +47,7 @@
                 android:onClick="parenthesesBTN"
                 android:text="@string/parentheses"
                 android:textColor="@color/white"
+                android:gravity="center"
                 android:textSize="20sp" />
 
             <Button
@@ -59,6 +61,7 @@
                 android:onClick="powerBTN"
                 android:text="@string/power"
                 android:textColor="@color/white"
+                android:gravity="center"
                 android:textSize="20sp" />
 
             <Button
@@ -71,6 +74,7 @@
                 android:background="@drawable/circle_button"
                 android:onClick="divideBTN"
                 android:text="@string/divide"
+                android:gravity="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
         </TableRow>
@@ -86,6 +90,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="sevenBTN"
                 android:text="@string/seven"
@@ -102,6 +107,7 @@
                 android:background="@drawable/circle_button"
                 android:onClick="eightBTN"
                 android:text="@string/eight"
+                android:gravity="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -112,6 +118,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="nineBTN"
                 android:text="@string/nine"
@@ -125,6 +132,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="multiplyBTN"
                 android:text="@string/multiply"
@@ -143,6 +151,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="fourBTN"
                 android:text="@string/four"
@@ -156,6 +165,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="fiveBTN"
                 android:text="@string/five"
@@ -169,6 +179,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="sixBTN"
                 android:text="@string/six"
@@ -182,6 +193,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="minusBTN"
                 android:text="@string/minus"
@@ -200,6 +212,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="oneBTN"
                 android:text="@string/one"
@@ -215,6 +228,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/circle_button"
                 android:onClick="twoBTN"
+                android:gravity="center"
                 android:text="@string/two"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -226,6 +240,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="threeBTN"
                 android:text="@string/three"
@@ -239,6 +254,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="plusBTN"
                 android:text="@string/plus"
@@ -258,6 +274,7 @@
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:background="@drawable/circle_button"
                 android:onClick="plusorminusBTN"
                 android:text="@string/plusorminus"
@@ -270,6 +287,7 @@
                 android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_margin="5dp"
+                android:gravity="center"
                 android:layout_weight="1"
                 android:background="@drawable/circle_button"
                 android:onClick="zeroBTN"
@@ -287,6 +305,7 @@
                 android:background="@drawable/circle_button"
                 android:onClick="pointBTN"
                 android:text="@string/point"
+                android:gravity="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -301,6 +320,7 @@
                 android:backgroundTint="#039BE5"
                 android:onClick="equalsBTN"
                 android:text="@string/equals"
+                android:gravity="center"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
                 tools:ignore="TextContrastCheck" />
@@ -327,11 +347,12 @@
     <ImageButton
         android:id="@+id/button25"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="97dp"
+        android:layout_height="62dp"
         android:layout_margin="5dp"
         android:background="@drawable/circle_button"
         android:contentDescription="@string/backspace"
+        android:gravity="center"
         android:onClick="backspaceBTN"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
