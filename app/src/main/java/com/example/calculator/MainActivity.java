@@ -2,11 +2,9 @@ package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 import org.mariuszgromada.math.mxparser.*;
-
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,13 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         display = findViewById(R.id.input);
         display.setShowSoftInputOnFocus(false);
-        display.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(getString(R.string.enter_a_value).equals(display.getText().toString()))
-                {
-                    display.setText("");
-                }
+
+        display.setOnClickListener(view -> {
+            if(getString(R.string.enter_a_value).equals(display.getText().toString())) {
+                display.setText("");
             }
         });
     }
