@@ -133,4 +133,16 @@ public class MainActivity extends AppCompatActivity {
             display.setSelection(CursorPos - 1);
         }
     }
+    public void reciprocalBTN(View view) {
+        updateText("1/");
+    }
+
+    public void squareRootBTN(View view) {
+        updateText("√");
+    }
+
+    public void percentBTN(View view) {
+        updateText("%");
+    }
+
 }

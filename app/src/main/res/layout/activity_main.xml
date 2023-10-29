@@ -16,7 +16,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.9"
         tools:ignore="UnknownId">
-
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -79,7 +78,51 @@
                 android:textColor="@color/white"
                 android:textSize="20sp" />
         </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <Button
+                android:id="@+id/reciprocalBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_button"
+                android:onClick="reciprocalBTN"
+                android:text="@string/reciprocal"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/squareRootBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_button"
+                android:onClick="squareRootBTN"
+                android:text="\u221A"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/percentBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_button"
+                android:onClick="percentBTN"
+                android:text="@string/percent"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <!-- Add more buttons here if needed -->
+        </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -351,6 +394,7 @@
         android:layout_width="97dp"
         android:layout_height="62dp"
         android:layout_margin="5dp"
+        android:layout_marginBottom="72dp"
         android:background="@drawable/circle_button"
         android:contentDescription="@string/backspace"
         android:gravity="center"

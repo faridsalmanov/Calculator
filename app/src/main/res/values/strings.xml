@@ -22,5 +22,7 @@
     <string name="equals">=</string>
     <string name="backspace"> </string>
     <string name="enter_a_value">Enter a value</string>
+    <string name="reciprocal">1/x</string>
+    <string name="percent">%</string>
 
 </resources>
