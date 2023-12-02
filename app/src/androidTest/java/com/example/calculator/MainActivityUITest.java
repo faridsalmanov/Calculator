@@ -13,28 +13,63 @@ public class MainActivityUITest {
 
     @Test
     public void testUIInteractions() {
-        // Test UI interactions for plusorminusBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.plusorminusBTN)).perform(ViewActions.click());
 
-        // Test UI interactions for clearBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.clearBTN)).perform(ViewActions.click());
 
-        // Test UI interactions for parenthesesBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.parenthesesBTN)).perform(ViewActions.click());
 
-        // Test UI interactions for powerBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.powerBTN)).perform(ViewActions.click());
 
-        // Test UI interactions for divideBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.divideBTN)).perform(ViewActions.click());
 
-        // Test UI interactions for multiplyBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.multiplyBTN)).perform(ViewActions.click());
 
-        // Test UI interactions for percentBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.percentBTN)).perform(ViewActions.click());
 
-        // Test UI interactions for reciprocalBTN
+
         Espresso.onView(ViewMatchers.withId(R.id.reciprocalBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.oneBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.twoBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.threeBTN)).perform(ViewActions.click());
+
+        Espresso.onView(ViewMatchers.withId(R.id.pointBTN)).perform(ViewActions.click());
+
+
+        Espresso.onView(ViewMatchers.withId(R.id.plusBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.fourBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.equalsBTN)).perform(ViewActions.click());
+
+
+        Espresso.onView(ViewMatchers.withId(R.id.minusBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.fiveBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.pointBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.sixBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.equalsBTN)).perform(ViewActions.click());
+
+
+        Espresso.onView(ViewMatchers.withId(R.id.sevenBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.multiplyBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.eightBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.equalsBTN)).perform(ViewActions.click());
+
+
+        Espresso.onView(ViewMatchers.withId(R.id.nineBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.divideBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.twoBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.equalsBTN)).perform(ViewActions.click());
+
+        Espresso.onView(ViewMatchers.withId(R.id.percentBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.reciprocalBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.powerBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.zeroBTN)).perform(ViewActions.click());
+        Espresso.onView(ViewMatchers.withId(R.id.equalsBTN)).perform(ViewActions.click());
     }
 }
