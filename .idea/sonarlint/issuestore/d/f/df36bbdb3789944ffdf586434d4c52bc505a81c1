@@ -1,0 +1,61 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÁÇä
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÃÍ“
+f	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÃÍ“
+m	java:S117~"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ÃÍ“8 Ğ»ØÂ1
+p
+java:S1104"SMake display a static final constant or non-public and provide accessors if needed.(çû‹Î8ğÕËØÂ1
+H
+java:S1172("+Remove this unused method parameter "view".(…È‹º8£¹»ØÂ1
+M
+java:S1172+"+Remove this unused method parameter "view".(‡Ú²¼üÿÿÿÿ8¨¹»ØÂ1
+M
+java:S1172."+Remove this unused method parameter "view".(ÎÄäœüÿÿÿÿ8«¹»ØÂ1
+H
+java:S11721"+Remove this unused method parameter "view".(ÃŒ·†8­¹»ØÂ1
+M
+java:S11724"+Remove this unused method parameter "view".(±¸Ü—ÿÿÿÿÿ8¯¹»ØÂ1
+M
+java:S11727"+Remove this unused method parameter "view".(ëÀ˜Åúÿÿÿÿ8±¹»ØÂ1
+M
+java:S1172:"+Remove this unused method parameter "view".(µˆÇ™ıÿÿÿÿ8³¹»ØÂ1
+M
+java:S1172="+Remove this unused method parameter "view".(¨Âó‡úÿÿÿÿ8µ¹»ØÂ1
+G
+java:S1172@"+Remove this unused method parameter "view".(¶»Ç=8¸¹»ØÂ1
+M
+java:S1172C"+Remove this unused method parameter "view".(İ„ù—ÿÿÿÿÿ8º¹»ØÂ1
+M
+java:S1172F"+Remove this unused method parameter "view".(ˆŸ“ÿÿÿÿÿ8¼¹»ØÂ1
+H
+java:S1172I"+Remove this unused method parameter "view".(™ò±8¾¹»ØÂ1
+M
+java:S1172L"+Remove this unused method parameter "view".(Ÿ›Ò¯şÿÿÿÿ8À¹»ØÂ1
+?
+java:S1940]")Use the opposite operator ("!=") instead.(¸‡Æã
+M
+java:S1172b"+Remove this unused method parameter "view".(ŠÖÔ›ÿÿÿÿÿ8Î¹»ØÂ1
+H
+java:S1172e"+Remove this unused method parameter "view".(¹üšÎ8Ñ¹»ØÂ1
+M
+java:S1172h"+Remove this unused method parameter "view".(³ôçØùÿÿÿÿ8Ó¹»ØÂ1
+M
+java:S1172k"+Remove this unused method parameter "view".(Ÿ­Äüÿÿÿÿ8Õ¹»ØÂ1
+H
+java:S1172n"+Remove this unused method parameter "view".(ı¤Ãì8×¹»ØÂ1
+M
+java:S1172q"+Remove this unused method parameter "view".(¿•ŸÛúÿÿÿÿ8Ù¹»ØÂ1
+^
+java:S5361s"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ü˜²’
+^
+java:S5361t"HReplace this call to "replaceAll()" by a call to the "replace()" method.(ÒÚƒÈ
+M
+java:S1172z"+Remove this unused method parameter "view".(Ú”Ö°ıÿÿÿÿ8¿Ò»ØÂ1
+H
+java:S1172}"+Remove this unused method parameter "view".(âŒ™8ÂÒ»ØÂ1
+I
+java:S1172ˆ"+Remove this unused method parameter "view".(‘ŠÍä8ÉÒ»ØÂ1
+N
+java:S1172Œ"+Remove this unused method parameter "view".(Ëîõ¬ùÿÿÿÿ8ÌÒ»ØÂ1
+I
+java:S1172"+Remove this unused method parameter "view".(ĞÈ–8ÏÒ»ØÂ1

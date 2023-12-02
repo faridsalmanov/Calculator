@@ -223,5 +223,36 @@ public class MainActivityUnitTest {
         mainActivity.squareRootBTN(null);
         assertEquals("√7", mainActivity.display.getText().toString());
     }
+    @Test
+    public void testPointButton() {
+        // Test adding a decimal point to a positive integer
+        mainActivity.display.setText("123");
+        mainActivity.pointBTN(null);
+        assertEquals("123.", mainActivity.display.getText().toString());
+
+        // Test adding a decimal point to a negative integer
+        mainActivity.display.setText("-456");
+        mainActivity.pointBTN(null);
+        assertEquals("-456.", mainActivity.display.getText().toString());
+
+        // Test adding a decimal point to a decimal number
+        mainActivity.display.setText("789.01");
+        mainActivity.pointBTN(null);
+        assertEquals("789.01.", mainActivity.display.getText().toString());
+
+        // Test adding a decimal point to an empty display
+        mainActivity.pointBTN(null);
+        assertEquals("0.", mainActivity.display.getText().toString());
+
+        // Test adding multiple decimal points (should ignore additional points)
+        mainActivity.display.setText("23.45");
+        mainActivity.pointBTN(null);
+        assertEquals("23.45", mainActivity.display.getText().toString());
+
+        // Test adding a decimal point after an operator
+        mainActivity.display.setText("12+");
+        mainActivity.pointBTN(null);
+        assertEquals("12+0.", mainActivity.display.getText().toString());
+    }
 }
 
