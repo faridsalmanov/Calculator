@@ -49,7 +49,54 @@ public class MainActivityUnitTest {
         assertEquals("2+3()", mainActivity.display.getText().toString());
     }
 
+    @Test
+    public void testPowerButton() {
+        // Test for raising a positive number to a power
+        mainActivity.display.setText("2");
+        mainActivity.powerBTN(null);
+        assertEquals("2^", mainActivity.display.getText().toString());
 
+        // Test for raising a negative number to a power
+        mainActivity.display.setText("-3");
+        mainActivity.powerBTN(null);
+        assertEquals("-3^", mainActivity.display.getText().toString());
+
+        // Test for raising to the power of zero
+        mainActivity.display.setText("5");
+        mainActivity.powerBTN(null);
+        assertEquals("5^", mainActivity.display.getText().toString());
+    }
+
+    @Test
+    public void testDivideButton() {
+        // Test for dividing a positive number
+        mainActivity.display.setText("10");
+        mainActivity.divideBTN(null);
+        assertEquals("10÷", mainActivity.display.getText().toString());
+
+        // Test dividing a negative number
+        mainActivity.display.setText("-8");
+        mainActivity.divideBTN(null);
+        assertEquals("-8÷", mainActivity.display.getText().toString());
+
+        // Test dividing by zero
+        mainActivity.display.setText("0");
+        mainActivity.divideBTN(null);
+        assertEquals("0÷", mainActivity.display.getText().toString());
+    }
+
+    @Test
+    public void testMultiplyButton() {
+        // Test multiplying a positive number
+        mainActivity.display.setText("4");
+        mainActivity.multiplyBTN(null);
+        assertEquals("4×", mainActivity.display.getText().toString());
+
+        // Test multiplying a negative number
+        mainActivity.display.setText("-7");
+        mainActivity.multiplyBTN(null);
+        assertEquals("-7×", mainActivity.display.getText().toString());
+    }
 
     @Test
     public void testPercentButton() {
